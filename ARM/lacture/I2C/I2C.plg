@@ -1,0 +1,695 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+V:\abhyuday\vector\8051\lacture\protocol\I2C\I2C.uvproj
+Project File Date:  04/01/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(26): error C216: subscript on non-array or too many dimensions
+Target not created
+Rebuild target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(26): error C216: subscript on non-array or too many dimensions
+Target not created
+Build target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(31): error C214: illegal pointer conversion
+Target not created
+Build target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1615
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Rebuild target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1615
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1620
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Rebuild target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1620
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1620
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Rebuild target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1620
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1622
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Rebuild target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1622
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1620
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Rebuild target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1620
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+Target has no object modules
+Target not created
+Rebuild target 'Target 1'
+Target has no object modules
+Target not created
+Build target 'Target 1'
+Target has no object modules
+Target not created
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1620
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1620
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1620
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling p1_eeprom.c...
+i2c.h(14): warning C173: missing return-expression
+p1_eeprom.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P1_EEPROM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P1_EEPROM
+Program Size: data=45.0 xdata=0 code=1620
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling p2_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+p2_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P2_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P2_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P2_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P2_RTC
+Program Size: data=43.0 xdata=0 code=1584
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Rebuild target 'Target 1'
+compiling p2_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+p2_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?P2_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?P2_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?P2_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?P2_RTC
+Program Size: data=43.0 xdata=0 code=1584
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=1827
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=1827
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=1827
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=1827
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2040
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2040
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2040
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2042
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2042
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2040
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2040
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+EC_rtc.c - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2040
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2040
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2040
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=49.0 xdata=0 code=2040
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2047
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2047
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2047
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2047
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2047
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2047
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2069
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2069
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2069
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2069
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2108
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2108
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2107
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling EC_rtc.c...
+i2c.h(14): warning C173: missing return-expression
+EC_rtc.c(14): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_WRITESTR?EC_RTC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2C_DEVICE_READSTR?EC_RTC
+Program Size: data=46.0 xdata=0 code=2107
+creating hex file from "I2C"...
+"I2C" - 0 Error(s), 5 Warning(s).

@@ -1,0 +1,4 @@
+"EC_rtc.obj",
+"p1_eeprom.obj" 
+TO "Tall_plaza" 
+RAMSIZE(256) 

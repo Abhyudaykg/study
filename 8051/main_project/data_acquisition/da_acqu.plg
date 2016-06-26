@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+V:\abhyuday\vector\8051\main_project\data_acquisition\da_acqu.uvproj
+Project File Date:  04/22/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?UART_RX?MAIN
+Program Size: data=46.0 xdata=0 code=2582
+creating hex file from "da_acqu"...
+"da_acqu" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?UART_RX?MAIN
+Program Size: data=46.0 xdata=0 code=2582
+creating hex file from "da_acqu"...
+"da_acqu" - 0 Error(s), 1 Warning(s).

@@ -1,0 +1,80 @@
+C51 COMPILER V9.50a   EC4_UART                                                             03/25/2016 08:38:36 PAGE 1   
+
+
+C51 COMPILER V9.50a, COMPILATION OF MODULE EC4_UART
+OBJECT MODULE PLACED IN EC4_uart.OBJ
+COMPILER INVOKED BY: C:\Keil4\C51\BIN\C51.EXE EC4_uart.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          #include"delay.h"
+   3          #include"uart.h"
+   4          #include"prog.h"
+   5          #include<string.h>
+   6          
+   7          
+   8          code unsigned char pass[]="abhyuday";
+   9          main()
+  10          {
+  11   1      unsigned char p[20];
+  12   1      unsigned char temp;
+  13   1      unsigned char l1=strlen(pass);
+  14   1      unsigned char l2;
+  15   1      unsigned char ret;
+  16   1        unsigned char j=0;
+  17   1      uart_init();
+  18   1        
+  19   1        {
+  20   2        uart_string("Enter the password:");
+  21   2        
+  22   2        do
+  23   2        {
+  24   3          temp=uart_rx();
+  25   3          uart_tx('*');
+  26   3          p[j++]=temp;
+  27   3        }while(temp!=13);
+  28   2        
+  29   2        p[--j]='\0';
+  30   2        l2=strlen(p);
+  31   2        
+  32   2        uart_string("\n");
+  33   2        //uart_int(l1);
+  34   2        //uart_string("\n");
+  35   2        //uart_int(l2);
+  36   2        
+  37   2        if(l2==l1)
+  38   2        {
+  39   3          ret=my_comp(pass,p,l2);
+  40   3          
+  41   3          if(ret==1)
+  42   3              uart_string("\nvalid pass \r\n");
+  43   3          else
+  44   3              uart_string("\nInvalid pass \r\n");
+  45   3        }
+  46   2        else
+  47   2        {
+  48   3          uart_string("\nInvalid pass\r\n");
+  49   3        }
+  50   2        
+  51   2      }
+  52   1      
+  53   1      }
+*** WARNING C291 IN LINE 12 OF EC4_uart.c: not every exit path returns a value
+*** WARNING C290 IN LINE 53 OF EC4_uart.c: missing return value
+C51 COMPILER V9.50a   EC4_UART                                                             03/25/2016 08:38:36 PAGE 2   
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    984    ----
+   CONSTANT SIZE    =     79    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      47
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  2 WARNING(S),  0 ERROR(S)

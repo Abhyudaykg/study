@@ -1,0 +1,719 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+V:\abhyuday\vector\8051\lacture\peripheral\UART\UART.uvproj
+Project File Date:  03/24/2016
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(8): error C141: syntax error near '{'
+u5_calculator.c(13): error C231: 'uart_init': redefinition
+u5_calculator.c(15): error C279: 'n1': multiple initialization
+u5_calculator.c(16): error C231: 'op': redefinition
+u5_calculator.c(17): error C279: 'n2': multiple initialization
+u5_calculator.c(19): error C279: 'ans': multiple initialization
+u5_calculator.c(19): error C247: non-address/-constant initializer
+u5_calculator.c(20): error C231: '_uart_int': redefinition
+u5_calculator.c(22): error C141: syntax error near 'while'
+u5_calculator.c(22): error C141: syntax error near '1'
+Target not created
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(8): error C141: syntax error near '{'
+u5_calculator.c(13): error C231: 'uart_init': redefinition
+u5_calculator.c(15): error C279: 'm1': multiple initialization
+u5_calculator.c(16): error C231: 'op': redefinition
+u5_calculator.c(17): error C279: 'm2': multiple initialization
+u5_calculator.c(19): error C247: non-address/-constant initializer
+u5_calculator.c(20): error C231: '_uart_int': redefinition
+u5_calculator.c(22): error C141: syntax error near 'while'
+u5_calculator.c(22): error C141: syntax error near '1'
+Target not created
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(8): error C141: syntax error near '{'
+u5_calculator.c(13): error C231: 'uart_init': redefinition
+u5_calculator.c(15): error C279: 'm1': multiple initialization
+u5_calculator.c(16): error C231: 'op': redefinition
+u5_calculator.c(17): error C279: 'm2': multiple initialization
+u5_calculator.c(19): error C279: 'an': multiple initialization
+u5_calculator.c(19): error C247: non-address/-constant initializer
+u5_calculator.c(20): error C231: '_uart_int': redefinition
+u5_calculator.c(22): error C141: syntax error near 'while'
+u5_calculator.c(22): error C141: syntax error near '1'
+Target not created
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(8): error C141: syntax error near '{'
+u5_calculator.c(14): error C231: 'uart_init': redefinition
+u5_calculator.c(16): error C279: 'm1': multiple initialization
+u5_calculator.c(17): error C231: 'op': redefinition
+u5_calculator.c(18): error C279: 'm2': multiple initialization
+u5_calculator.c(20): error C279: 'an': multiple initialization
+u5_calculator.c(20): error C247: non-address/-constant initializer
+u5_calculator.c(21): error C231: '_uart_int': redefinition
+u5_calculator.c(23): error C141: syntax error near 'while'
+u5_calculator.c(23): error C141: syntax error near '1'
+Target not created
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(7): error C141: syntax error near '{'
+u5_calculator.c(13): error C231: 'uart_init': redefinition
+u5_calculator.c(16): error C231: 'op': redefinition
+u5_calculator.c(19): error C247: non-address/-constant initializer
+u5_calculator.c(20): error C231: '_uart_int': redefinition
+u5_calculator.c(22): error C141: syntax error near 'while'
+u5_calculator.c(22): error C141: syntax error near '1'
+Target not created
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=30.0 xdata=0 code=1814
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling clcmain.c...
+clcmain.c(3): warning C318: can't open file 'keypad.h'
+clcmain.c(21): warning C206: 'keyscan': missing function-prototype
+clcmain.c(22): warning C291: not every exit path returns a value
+clcmain.c(51): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_HEX?CLCMAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  KEYSCAN
+    MODULE:  clcmain.obj (CLCMAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  KEYSCAN
+    MODULE:  clcmain.obj (CLCMAIN)
+    ADDRESS: 05A8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  KEYSCAN
+    MODULE:  clcmain.obj (CLCMAIN)
+    ADDRESS: 0615H
+Program Size: data=40.0 xdata=0 code=2159
+creating hex file from "UART"...
+"UART" - 0 Error(s), 8 Warning(s).
+Rebuild target 'Target 1'
+compiling clcmain.c...
+clcmain.c(3): warning C318: can't open file 'keypad.h'
+clcmain.c(21): warning C206: 'keyscan': missing function-prototype
+clcmain.c(22): warning C291: not every exit path returns a value
+clcmain.c(51): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_HEX?CLCMAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  KEYSCAN
+    MODULE:  clcmain.obj (CLCMAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  KEYSCAN
+    MODULE:  clcmain.obj (CLCMAIN)
+    ADDRESS: 05A8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  KEYSCAN
+    MODULE:  clcmain.obj (CLCMAIN)
+    ADDRESS: 0615H
+Program Size: data=40.0 xdata=0 code=2159
+creating hex file from "UART"...
+"UART" - 0 Error(s), 8 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=43.0 xdata=0 code=2148
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=43.0 xdata=0 code=2148
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=32.0 xdata=0 code=1924
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=32.0 xdata=0 code=1924
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=32.0 xdata=0 code=1924
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=32.0 xdata=0 code=1920
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=32.0 xdata=0 code=1920
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=32.0 xdata=0 code=1920
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=1956
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=1956
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=1980
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=1980
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=2021
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=2021
+creating hex file from "UART"...
+"UART" - 0 Error(s), 2 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=2021
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=2016
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=2016
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(23): error C202: 'n1': undefined identifier
+u5_calculator.c(46): error C202: 'n1': undefined identifier
+u5_calculator.c(49): error C202: 'n1': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=2076
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=34.0 xdata=0 code=2076
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=40.0 xdata=0 code=2390
+creating hex file from "UART"...
+"UART" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=40.0 xdata=0 code=2390
+creating hex file from "UART"...
+"UART" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=40.0 xdata=0 code=2390
+creating hex file from "UART"...
+"UART" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=40.0 xdata=0 code=2390
+creating hex file from "UART"...
+"UART" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=40.0 xdata=0 code=2390
+creating hex file from "UART"...
+"UART" - 0 Error(s), 2 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+u5_calculator.c(66): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=40.0 xdata=0 code=2388
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=40.0 xdata=0 code=2388
+creating hex file from "UART"...
+"UART" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+u5_calculator.c(66): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+Program Size: data=40.0 xdata=0 code=2388
+creating hex file from "UART"...
+"UART" - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+compiling u1.c...
+uart.h(61): warning C206: 'delay_ms': missing function-prototype
+uart.h(61): error C267: 'delay_ms': requires ANSI-style prototype
+delay.h(2): error C231: 'delay_ms': redefinition
+delay.h(9): error C231: 'delay_ms': redefinition
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+u5_calculator.c(66): warning C290: missing return value
+Target not created
+Rebuild target 'Target 1'
+compiling u1.c...
+uart.h(61): warning C206: 'delay_ms': missing function-prototype
+uart.h(61): error C267: 'delay_ms': requires ANSI-style prototype
+delay.h(2): error C231: 'delay_ms': redefinition
+delay.h(9): error C231: 'delay_ms': redefinition
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+u5_calculator.c(66): warning C290: missing return value
+Target not created
+Rebuild target 'Target 1'
+compiling u1.c...
+compiling u5_calculator.c...
+u5_calculator.c(22): warning C291: not every exit path returns a value
+u5_calculator.c(66): warning C290: missing return value
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  MAIN
+    MODULE:  u5_calculator.obj (U5_CALCULATOR)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _UART_HEX
+    MODULE:  u5_calculator.obj (U5_CALCULATOR)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _UART_FLOAT
+    MODULE:  u5_calculator.obj (U5_CALCULATOR)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _UART_INT
+    MODULE:  u5_calculator.obj (U5_CALCULATOR)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _UART_STRING
+    MODULE:  u5_calculator.obj (U5_CALCULATOR)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  UART_RX
+    MODULE:  u5_calculator.obj (U5_CALCULATOR)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _UART_TX
+    MODULE:  u5_calculator.obj (U5_CALCULATOR)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  UART_INIT
+    MODULE:  u5_calculator.obj (U5_CALCULATOR)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY_MS
+    MODULE:  u5_calculator.obj (U5_CALCULATOR)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_HEX?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U5_CALCULATOR
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN?U5_CALCULATOR
+Program Size: data=90.0 xdata=0 code=4002
+Target not created
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_HEX?U1
+Program Size: data=47.0 xdata=0 code=2508
+creating hex file from "UART"...
+"UART" - 0 Error(s), 6 Warning(s).
+Rebuild target 'Target 1'
+compiling u1.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_HEX?U1
+Program Size: data=47.0 xdata=0 code=2508
+creating hex file from "UART"...
+"UART" - 0 Error(s), 6 Warning(s).
+Rebuild target 'Target 1'
+compiling u1.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_STRING?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_FLOAT?U1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_HEX?U1
+Program Size: data=47.0 xdata=0 code=2508
+creating hex file from "UART"...
+"UART" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(13): error C141: syntax error near 'unsigned'
+u6_rfid.c(13): error C202: 'i': undefined identifier
+u6_rfid.c(14): error C141: syntax error near 'unsigned'
+u6_rfid.c(14): error C202: 'usr': undefined identifier
+u6_rfid.c(15): error C141: syntax error near 'unsigned'
+u6_rfid.c(15): error C202: 'ret': undefined identifier
+u6_rfid.c(17): error C202: 'i': undefined identifier
+u6_rfid.c(19): error C202: 'i': undefined identifier
+u6_rfid.c(22): error C202: 'ret': undefined identifier
+u6_rfid.c(23): error C202: 'ret': undefined identifier
+u6_rfid.c(26): error C202: 'ret': undefined identifier
+u6_rfid.c(27): error C202: 'ret': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(13): error C141: syntax error near 'unsigned'
+u6_rfid.c(13): error C202: 'i': undefined identifier
+u6_rfid.c(14): error C141: syntax error near 'unsigned'
+u6_rfid.c(14): error C202: 'usr': undefined identifier
+u6_rfid.c(17): error C202: 'i': undefined identifier
+u6_rfid.c(19): error C202: 'i': undefined identifier
+u6_rfid.c(22): error C202: 'usr': undefined identifier
+u6_rfid.c(26): error C202: 'usr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(14): error C141: syntax error near 'unsigned'
+u6_rfid.c(14): error C202: 'i': undefined identifier
+u6_rfid.c(18): error C202: 'i': undefined identifier
+u6_rfid.c(20): error C202: 'i': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(34): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=42.0 xdata=0 code=1991
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(34): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=42.0 xdata=0 code=1991
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(34): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=44.0 xdata=0 code=1983
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(34): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=44.0 xdata=0 code=1983
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(34): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=44.0 xdata=0 code=1982
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(34): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=44.0 xdata=0 code=1982
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(35): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=44.0 xdata=0 code=1991
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(35): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=44.0 xdata=0 code=1993
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u6_rfid.c...
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(35): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=44.0 xdata=0 code=1990
+creating hex file from "UART"...
+"UART" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+compiling u6_rfid.c...
+progpass.h(1): warning C280: 'l': unreferenced local variable
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(35): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=44.0 xdata=0 code=1988
+creating hex file from "UART"...
+"UART" - 0 Error(s), 5 Warning(s).
+Rebuild target 'Target 1'
+compiling u6_rfid.c...
+progpass.h(1): warning C280: 'l': unreferenced local variable
+u6_rfid.c(12): warning C291: not every exit path returns a value
+u6_rfid.c(35): warning C290: missing return value
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_FLOAT?U6_RFID
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_HEX?U6_RFID
+Program Size: data=44.0 xdata=0 code=1988
+creating hex file from "UART"...
+"UART" - 0 Error(s), 5 Warning(s).

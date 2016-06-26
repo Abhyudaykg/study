@@ -1,0 +1,9 @@
+$INCLUDE(header.asm)
+CSEG AT 0H
+MAIN:
+	MOV A,#2
+	MOV R0,#3
+	ACALL _ADD
+	MOV 30H,A
+	SJMP $
+END

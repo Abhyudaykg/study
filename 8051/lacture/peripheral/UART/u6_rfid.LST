@@ -1,0 +1,61 @@
+C51 COMPILER V9.50a   U6_RFID                                                              03/24/2016 15:16:35 PAGE 1   
+
+
+C51 COMPILER V9.50a, COMPILATION OF MODULE U6_RFID
+OBJECT MODULE PLACED IN u6_rfid.OBJ
+COMPILER INVOKED BY: C:\Keil4\C51\BIN\C51.EXE u6_rfid.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          #include"delay.h"
+   3          #include"uart.h"
+   4          #include"progpass.h"
+*** WARNING C280 IN LINE 1 OF progpass.h: 'l': unreferenced local variable
+   5          
+   6          
+   7          code unsigned char usr1[]="00326204";
+   8          code unsigned char usr2[]="15645745";
+   9          unsigned char ret;
+  10          unsigned char usr[10];
+  11          unsigned char i;
+  12          main()
+  13          {
+  14   1      uart_init();
+  15   1      
+  16   1      
+  17   1      
+  18   1        uart_rx();
+  19   1        for(i=0;i<8;i++)
+  20   1          {
+  21   2            usr[i]=uart_rx();
+  22   2          }
+  23   1          uart_string(usr);
+  24   1      uart_string("\n");
+  25   1      ret=my_comp(usr1,usr,8);
+  26   1          if(ret==1)
+  27   1              uart_string("welcome abhyuday\n");
+  28   1          else
+  29   1          {ret=my_comp(usr2,usr,8);
+  30   2              if(ret==1)
+  31   2                  uart_string("welcome uvabrkhi\n");
+  32   2              else
+  33   2                  uart_string("you not permitted\n");
+  34   2          }
+  35   1      }
+*** WARNING C291 IN LINE 12 OF u6_rfid.c: not every exit path returns a value
+*** WARNING C290 IN LINE 35 OF u6_rfid.c: missing return value
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    974    ----
+   CONSTANT SIZE    =     75    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     12      26
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  3 WARNING(S),  0 ERROR(S)

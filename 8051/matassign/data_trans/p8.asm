@@ -1,0 +1,5 @@
+CSEG AT 0H
+   MOV B,#10
+   PUSH B
+   POP TMOD
+END

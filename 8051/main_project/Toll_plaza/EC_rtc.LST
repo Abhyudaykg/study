@@ -1,0 +1,122 @@
+C51 COMPILER V9.50a   EC_RTC                                                               04/13/2016 13:27:07 PAGE 1   
+
+
+C51 COMPILER V9.50a, COMPILATION OF MODULE EC_RTC
+OBJECT MODULE PLACED IN EC_rtc.OBJ
+COMPILER INVOKED BY: C:\Keil4\C51\BIN\C51.EXE EC_rtc.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          #include"delay.h"
+   3          #include"lcd8bit.h"
+   4          #include"i2c.h"
+   5          #include"i2c_device.h"
+   6          #include<string.h>
+   7          
+   8          unsigned char hr=0x09;
+   9          unsigned char mn=0x10;
+  10          unsigned char sc=0x10;
+  11          
+  12          unsigned char dd=0x20;
+  13          unsigned char mm=0x12;
+  14          unsigned char yy=0x2020;
+  15          
+  16          void month(unsigned char temp)
+  17          {
+  18   1      switch(temp)
+  19   1        {
+  20   2          case 0x01: lcd_string("jan");
+  21   2                      break;
+  22   2          case 0x02: lcd_string("Feb");
+  23   2                      break;
+  24   2          case 0x03: lcd_string("mar");
+  25   2                      break;
+  26   2          case 0x04: lcd_string("Apr");
+  27   2                      break;
+  28   2          case 0x05: lcd_string("may");
+  29   2                      break;
+  30   2          case 0x06: lcd_string("jun");
+  31   2                      break;
+  32   2          case 0x07: lcd_string("jly");
+  33   2                      break;
+  34   2          case 0x08: lcd_string("aug");
+  35   2                      break;
+  36   2          case 0x09: lcd_string("sep");
+  37   2                      break;
+  38   2          case 0x10: lcd_string("oct");
+  39   2                      break;
+  40   2          case 0x11: lcd_string("nov");
+  41   2                      break;
+  42   2          case 0x12: lcd_string("Dec");
+  43   2                      break;
+  44   2        }
+  45   1      }
+  46          main()
+  47          {
+  48   1      unsigned char temp;
+  49   1        lcd_init();
+  50   1        
+  51   1        i2c_device_write(0xD0,0x02,hr);
+  52   1        i2c_device_write(0xD0,0x01,mn);
+  53   1        i2c_device_write(0xD0,0x00,sc);
+  54   1        i2c_device_write(0xD0,0x04,dd);
+  55   1        i2c_device_write(0xD0,0x05,mm);
+C51 COMPILER V9.50a   EC_RTC                                                               04/13/2016 13:27:07 PAGE 2   
+
+  56   1        i2c_device_write(0xD0,0x06,yy);
+  57   1      while(1)
+  58   1      {
+  59   2        lcd_cmd(0x80);
+  60   2        temp=i2c_device_read(0xD0,0x02);
+  61   2        lcd_data(temp/16+48);
+  62   2        lcd_data(temp%16+48);
+  63   2        lcd_data(':');
+  64   2        
+  65   2        temp=i2c_device_read(0xD0,0x01);
+  66   2        lcd_data(temp/16+48);
+  67   2        lcd_data(temp%16+48);
+  68   2        lcd_data(':');
+  69   2        
+  70   2        temp=i2c_device_read(0xD0,0x00);
+  71   2        lcd_data(temp/16+48);
+  72   2        lcd_data(temp%16+48);
+  73   2        
+  74   2        lcd_string("  ");
+  75   2        if(hr&(1<<5))
+  76   2          lcd_string("PM");
+  77   2        else 
+  78   2          lcd_string("AM");
+  79   2        
+  80   2        lcd_cmd(0xc0);
+  81   2        
+  82   2        temp=i2c_device_read(0xD0,0x04);
+  83   2        lcd_data(temp/16+48);
+  84   2        lcd_data(temp%16+48);
+  85   2        lcd_data(':');
+  86   2        
+  87   2        temp=i2c_device_read(0xD0,0x05);
+  88   2        month(temp);
+  89   2        lcd_data(':');
+  90   2        
+  91   2        lcd_int(20);
+  92   2        temp=i2c_device_read(0xD0,0x06);
+  93   2        lcd_data(temp/16+48);
+  94   2        lcd_data(temp%16+48);
+  95   2        
+  96   2      }
+  97   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    831    ----
+   CONSTANT SIZE    =     57    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      6      19
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

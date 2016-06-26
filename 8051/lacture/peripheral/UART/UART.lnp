@@ -1,0 +1,3 @@
+"u6_rfid.obj" 
+TO "UART" 
+RAMSIZE(256) 

@@ -1,0 +1,50 @@
+C51 COMPILER V9.50a   U2                                                                   03/24/2016 10:50:41 PAGE 1   
+
+
+C51 COMPILER V9.50a, COMPILATION OF MODULE U2
+OBJECT MODULE PLACED IN u2.OBJ
+COMPILER INVOKED BY: C:\Keil4\C51\BIN\C51.EXE u2.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          #include"uart.h"
+   3          #include"delay.h"
+   4          #include"lcd8bit.h"
+   5          
+   6          main()
+   7          {
+   8   1      unsigned char temp;
+   9   1      uart_init();
+  10   1      lcd_init();
+  11   1      
+  12   1      
+  13   1        while(1)
+  14   1        { 
+  15   2          temp=uart_rx();
+  16   2          uart_tx(temp);
+  17   2          lcd_cmd(0x01);
+  18   2          lcd_data(temp);
+  19   2          lcd_cmd(0x85);
+  20   2          lcd_int(temp);
+  21   2          lcd_cmd(0x89);
+  22   2          lcd_string("0x");
+  23   2          lcd_hex(temp);
+  24   2          
+  25   2          
+  26   2        }
+  27   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    910    ----
+   CONSTANT SIZE    =      3    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      20
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

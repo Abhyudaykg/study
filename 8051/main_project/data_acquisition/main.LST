@@ -1,0 +1,82 @@
+C51 COMPILER V9.50a   MAIN                                                                 04/22/2016 09:08:25 PAGE 1   
+
+
+C51 COMPILER V9.50a, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: C:\Keil4\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          #include"delay.h"
+   3          #include"lcd8bit.h"
+   4          #include"i2c.h"
+   5          #include"i2c_device.h"
+   6          #include"rtc_main.h"
+   7          #include"uart.h"
+   8          #include"adcspi.h"
+   9          #include<string.h>
+  10          
+  11          
+  12          float voltadc=0;
+  13          float voltldr=0;
+  14          
+  15          int main()
+  16          {
+  17   1      lcd_init();
+  18   1      uart_init();
+  19   1      rtc_set();
+  20   1      
+  21   1      while(1)
+  22   1      {
+  23   2        rtc_main();
+  24   2        voltadc=read_adc();
+  25   2        voltldr=read_ldr();
+  26   2      
+  27   2        lcd_string("Time=");
+  28   2        lcd_string(rtc_buff);
+  29   2      
+  30   2        lcd_cmd(0xc0);
+  31   2        lcd_string("Va=");
+  32   2        lcd_float(voltadc);
+  33   2      
+  34   2        lcd_data(' ');
+  35   2        lcd_string("vl=");
+  36   2        lcd_float(voltldr);
+  37   2      
+  38   2        uart_tx('\r');
+  39   2        uart_tx('\n');
+  40   2        uart_string("Time=");
+  41   2        uart_string(rtc_buff);
+  42   2        uart_tx('\r');
+  43   2        uart_tx('\n');
+  44   2        uart_string("voltage_adc=");
+  45   2        uart_float(voltadc);
+  46   2        uart_string("  voltage_ldr=");
+  47   2        uart_float(voltldr);
+  48   2        
+  49   2        delay_ms(1000);
+  50   2        lcd_cmd(0x80);
+  51   2        uart_tx(12);
+  52   2      
+  53   2      }
+  54   1      
+  55   1      
+C51 COMPILER V9.50a   MAIN                                                                 04/22/2016 09:08:25 PAGE 2   
+
+  56   1      return 0;
+  57   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   1336    ----
+   CONSTANT SIZE    =     42    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     21      38
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

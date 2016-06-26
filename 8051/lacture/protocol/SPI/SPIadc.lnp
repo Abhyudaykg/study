@@ -1,0 +1,3 @@
+"spi_main.obj" 
+TO "SPIadc" 
+RAMSIZE(256) 
