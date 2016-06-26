@@ -4,46 +4,51 @@
 #include<stdlib.h>
 typedef struct poly
 {
-int coef;
+int coaf;
 int pwr;
 struct poly *next;
 }PY;
 
-PY *hptradd=0;
-
-void cpoly(PY **);
-void print(PY *);
-void addpoly(PY **,unsigned int);
-
 int main()
 {
-unsigned int n=0;
-PY **headptr;
-printf("How many polynomial you want to add...?\n");
-scanf("%u",&n);
-	headptr=(PY **)malloc(sizeof(int)*n);
-for(i=0;i<n;i++)
-	cpoly(&headptr[i]);
-addpoly(headptr,n);
-for(i=0;i<n;i++)
-	print(*headptr[i]);
-printf("\n");
-print(hptradd);
 
-return 0;
+
+
+
 }
-
-void cpoly(PY **ptr)
+void add_middle(ST **ptr)				//	add the data....
 {
+ST *tempn;
+ST *tempo;
+tempo=*ptr;
 
+	tempn=malloc(sizeof(ST));
 
+printf("rollno=");
+scanf("%u",&tempn->rollno);
 
+printf("name=");
+scanf("%s",tempn->name);
 
+printf("mark=");
+scanf("%f",&tempn->mark);
 
+if((*ptr==0) || (tempn->rollno < tempo->rollno))
+{
+	tempn->next=*ptr;
+	*ptr=tempn;
 }
-
-
-
-
-void print(PY *);
-void addpoly(PY **,unsigned int);
+else
+{
+	while(tempo)
+	{
+		if((tempo->next==0) || (tempo->next->rollno > tempn->rollno))
+		{
+			tempn->next=tempo->next;
+			tempo->next=tempn;
+			break;
+		}
+	tempo=tempo->next;
+	}
+}
+}
